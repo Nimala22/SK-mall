@@ -20,6 +20,7 @@
 a,
 a:hover{
   color: var(--out-color);
+  text-decoration: none;
 }
 
 ul,
@@ -31,7 +32,7 @@ ol{
 
 /* ======== Variables Define ======== */
 :root{
-  --primary-color: #055473;
+  --primary-color: #57C5B6;
   --secondary-color: #0e37bd;
   --third-color: #e83853;
   --white-color: #ffffff;
@@ -71,8 +72,7 @@ h1{
   font-size: 3rem;
   font-weight: 700;
   letter-spacing: 2px;
-  word-spacing: 7px;
-  margin-bottom: 3rem;
+  word-spacing: 7px;  
   color: var(--secondary-color);
   background-color: transparent;
   font-family: var(--primary-font);
@@ -166,3 +166,35 @@ p:hover{
   background-color: transparent;
   border: 3px solid var(--out-color);
 }
+
+/*
+===================================
+        01. header section 
+===================================
+*/
+header,
+header nav{
+  background-color: var(--primary-color) !important;
+}
+
+header h1 a{
+  color: var(--white-color) !important;
+}
+
+header .search-btn{
+  font-size: 18px;
+  color: var(--out-color);
+  background-color: var(--white-color);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 3px 6px 12px var(--text-color);
+  transition: .5s;
+}
+
+header .search-btn:hover{
+  color: var(--white-color);
+  background-color: var(--text-gray);
+}
+
+
