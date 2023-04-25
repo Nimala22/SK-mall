@@ -28,102 +28,129 @@
     <link rel="stylesheet" href="CSS/responsive.css" />
   </head>
   <body>
-    
+
     <!-- 01. header section -->
-    <header>
-      <div class="container">
-        <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <h1><a href="#">SK-mall</a></h1>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <h1><a href="#">SK-mall</a></h1>
 
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarScroll"
-              aria-controls="navbarScroll"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span><i class="fa-solid fa-bars-staggered" style="color: #ffffff;"></i></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px"
             >
-              <span><i class="fa-solid fa-bars-staggered" style="color: #ffffff;"></i></span>
-            </button>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
 
-            <div class="collapse navbar-collapse" id="navbarScroll">
-              <ul
-                class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                style="--bs-scroll-height: 100px"
-              >
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
-                    >Home</a
-                  >
-                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gents</a></li>
+                  <li><a class="dropdown-item" href="#">Female</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Technology</a></li>
+                </ul>
+              </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                  Products
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Gents</a></li>
-                    <li><a class="dropdown-item" href="#">Female</a></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Technology</a></li>
-                  </ul>
-                </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Top Sell Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Gents</a></li>
+                  <li><a class="dropdown-item" href="#">Female</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Technology</a></li>
+                </ul>
+              </li>
 
-                <li class="nav-item dropdown">
-                  <a
-                    class="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Top Sell Products
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Gents</a></li>
-                    <li><a class="dropdown-item" href="#">Female</a></li>
-                    <li><hr class="dropdown-divider" /></li>
-                    <li><a class="dropdown-item" href="#">Technology</a></li>
-                  </ul>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Re-views</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Re-views</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Add Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="search-btn" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
 
-                <li class="nav-item">
-                  <a class="nav-link disabled">Add Us</a>
-                </li>
-              </ul>
-              <form class="d-flex" role="search">
-                <input
-                  class="form-control me-2"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <button class="search-btn" type="submit">
-                  Search
-                </button>
-              </form>
+      <!-- 02. hero-area section -->
+      <section class="hero-area">
+        <div class="container content-middle">
+          <div class="row text-bg-light p-5">
+            <div class="col-lg-6 col-md-12">
+              <h4>Hey all dear Customer's !</h4>
+              <h2>Well-come our mall</h2>
+              <h1>SK-mall</h1>
+              <h5><i class="fa-solid fa-map-location-dot" style="color: #ff00ea;"></i> Cumilla, Dhaka Bangladesh.</h5>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <h2>At present <span>25%</span> discount.</h2>
+              <p>We provid our all product's 25% diccount for our mall branding. So you can wellcomely come our mall and visit our products. Thank you So much all- <span>Saklayen kroee <sub>mall-CEO</sub></span> </p>
+              <button class="main-btn ps-3">Visit our mall <i class="fa-solid fa-eye"></i></button>
+              <button class="second-btn ps-3">About our mall <i class="fa-solid fa-circle-info"></i></button>
             </div>
           </div>
-        </nav>
-      </div>
-    </header>
+        </div>
+      </section>
 
+
+
+
+
+
+
+    </main>
    
 
     <!-- Bootstrap-v5 -->
