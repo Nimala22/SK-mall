@@ -12,10 +12,7 @@
 }
 
 @media (max-width: 991px) {
-  /* hero-area */
-  .content-middle{
-    padding-top: 10%;
-  }
+ 
 
 
 
@@ -28,10 +25,8 @@
 
 @media (max-width: 767px) {
 
-  /* hero-area */
-  .content-middle{
-    padding-top: 5%;
-  }
+  
+
 
 
 
@@ -39,10 +34,7 @@
 }
 
 @media (max-width: 330px) {
-  /* hero-area */
-  .content-middle{
-    padding-top: 5%;
-  }
+  
 
 
   

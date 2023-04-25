@@ -30,6 +30,10 @@ ol{
   list-style: none;
 }
 
+img{
+  max-width: 100%;
+}
+
 /* ======== Variables Define ======== */
 :root{
   --primary-color: #57C5B6;
@@ -181,6 +185,24 @@ p:hover{
   border-radius: 50%;
 }
 
+.content-header{  
+  margin: 7rem auto;  
+}
+
+.content-header h2,
+.content-header p{
+  padding: 1rem 0;
+  text-align: center;
+}
+
+
+
+.flexitem {
+  display: flex;
+  align-items: center;
+}
+
+
 
 /*
 ===================================
@@ -226,7 +248,7 @@ header .search-btn:hover{
 }
 
 .content-middle{
-  padding-top: 12%;
+  padding-top: 15%;
 }
 
 .text-bg-light{
@@ -244,6 +266,28 @@ p span{
 
 p span sub{
   color: var(--secondary-color);
+}
+
+/*
+===================================
+      03. brand section
+===================================
+*/
+
+.brand-img a img{
+  height: 12rem;
+  width: 17rem;  
+  margin: 1rem; 
+  border: 2px solid var(--secondary-color);
+  border-radius: 10px; 
+  opacity: 50%;
+  transition: .5s;
+}
+
+.brand-img a:hover img{
+  opacity: 100%;
+  border: 3px solid var(--third-color);
+  box-shadow: 15px 12px 90px var(--black-color);
 }
 
 
