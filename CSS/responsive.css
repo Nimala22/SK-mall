@@ -12,8 +12,29 @@
 }
 
 @media (max-width: 991px) {
- 
+  /* brand-img */
+  .brand-img{
+    width: 95%;
+    margin: auto;
+    align-items: center;
+  }
 
+  .brand-img a img{
+    width: 80rem;
+  }
+ 
+  
+  /* carousel-img */
+ .carousel-item img{
+  height: 60vh;
+  width: auto;
+ }
+ 
+ /* trending product */
+ .products-section .card {
+  width: 80% !important;
+  margin: auto;
+ }
 
 
 
@@ -24,8 +45,29 @@
 
 
 @media (max-width: 767px) {
-
   
+   /* brand-img */
+   .brand-img{
+    width: 85%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .brand-img a img{
+    width: 75rem;
+  }
+
+  /* carousel-img */
+  .carousel-item img{
+    height: 60vh;
+    width: auto;
+   }
+
+   /* trending product */
+  .products-section .card {
+    width: 70% !important;
+    margin: auto;
+  }
 
 
 
@@ -34,8 +76,30 @@
 }
 
 @media (max-width: 330px) {
+
+   /* brand-img */
+   .brand-img{
+    width: 80%;
+    margin: auto;
+    align-items: center;
+  }
+
+  .brand-img a img{
+    width: 60rem;
+  }
+  
+  /* carousel-img */
+  .carousel-item img{
+    height: 50vh;
+    width: auto;
+  }
   
 
+   /* trending product */
+  .products-section .card {
+    width: 60% !important;
+    margin: auto;
+  }
 
   
 }
