@@ -325,3 +325,22 @@ p span sub{
 .products-section a:hover .card{
   box-shadow: 10px 15px 30px var(--text-gray);
 }
+/* 
+====================================
+      06. counter section
+====================================
+*/
+.counter-section{
+  background: var(--text-gray);
+  padding: 2.5rem 0;
+}
+
+.counter-section h2{
+  color: var(--primary-color);
+}
+
+.counter-section p{
+  display: inline-block;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
