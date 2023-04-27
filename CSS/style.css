@@ -50,10 +50,12 @@ img{
 }
 
 html{
+  
   scroll-behavior: smooth;
 }
 
 body{
+  
   background-color: #f7f7f7;
   font-family: var(--primary-font);
   font-size: 100%;
@@ -69,6 +71,7 @@ body{
 }
 
 ::-webkit-scrollbar-thumb{
+  
   background-color: var(--out-color);
 }
 
@@ -398,4 +401,44 @@ p span sub{
 
 .slider-content span:hover img{
   transform: translateY(-50px) scale(1.3);
+}
+/* 
+====================================
+  08. top sell products section
+====================================
+*/
+.top-sell-products .card{
+  border: 2px solid var(--secondary-color);
+  transition: all .5s ease-in-out;
+}
+
+.top-sell-products .card:hover{
+  
+  box-shadow: 20px 20px 50px var(--black-color);
+}
+
+.top-sell-products .card .card-body p{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-gray);
+  transition: .5s;
+}
+
+.top-sell-products .card:hover .card-body p{
+  color: var(--black-color);
+}
+
+.top-sell-products .card-body .card-title{
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--secondary-color);
+  text-align: left;
+  padding: 25px auto;
+  margin: 0;
+}
+
+.top-sell-products .card img{
+  cursor: pointer;
+  height: 17rem;
+  width: 100%;
 }

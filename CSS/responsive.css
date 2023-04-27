@@ -15,6 +15,12 @@
     object-fit: cover;
   }
 
+  /* .top-sell-products  */
+  .top-sell-products .card{
+    width: 90%;
+    margin: 0 auto;
+  }
+
 
 
 
@@ -67,6 +73,12 @@
     height: 100%;
     overflow: hidden;
     object-fit: cover;
+  }
+
+  /* .top-sell-products  */
+  .top-sell-products .card{
+    width: 90%;
+    margin: 0 auto;
   }
 
 
@@ -123,6 +135,12 @@
     object-fit: cover;
   }
 
+  /* .top-sell-products  */
+  .top-sell-products .card{
+    width: 90%;
+    margin: 0 auto;
+  }
+
 
 
 
@@ -173,6 +191,12 @@
     height: 100%;
     overflow: hidden;
     object-fit: cover;
+  }
+
+  /* .top-sell-products  */
+  .top-sell-products .card{
+    width: 90%;
+    margin: 0 auto;
   }
 
 
