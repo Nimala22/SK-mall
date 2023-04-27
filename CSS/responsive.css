@@ -1,6 +1,19 @@
 @media (max-width: 1024px) {
  
-  
+  /* For slider section */
+  #slider{    
+    height: 90vh;
+  }
+
+  .slider-content{
+    height: 350px;
+  }
+
+  .slider-content span img{
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
 
 
 
@@ -12,6 +25,11 @@
 }
 
 @media (max-width: 991px) {
+  /* brand-section */
+  .brand-section{
+    margin-top: 8rem;
+  }
+
   /* brand-img */
   .brand-img{
     width: 95%;
@@ -36,6 +54,22 @@
   margin: auto;
  }
 
+  /* For slider section */
+  #slider{    
+    height: 90vh;
+  }
+
+  .slider-content{
+    height: 350px;
+  }
+
+  .slider-content span img{
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+
 
 
 
@@ -45,6 +79,11 @@
 
 
 @media (max-width: 767px) {
+
+  /* brand-section */
+  .brand-section{
+    margin-top: 8rem;
+  }
   
    /* brand-img */
    .brand-img{
@@ -69,6 +108,22 @@
     margin: auto;
   }
 
+  /* For slider section */
+  #slider{    
+    height: 60vh;
+  }
+
+  .slider-content{
+    height: 300px;
+  }
+
+  .slider-content span img{
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+
 
 
 
@@ -76,6 +131,10 @@
 }
 
 @media (max-width: 330px) {
+  /* brand-section */
+  .brand-section{
+    margin-top: 18rem;
+  }
 
    /* brand-img */
    .brand-img{
@@ -100,6 +159,22 @@
     width: 60% !important;
     margin: auto;
   }
+
+  /* For slider section */
+  #slider{    
+    height: 80vh;
+  }
+
+  .slider-content{
+    height: 250px;
+  }
+
+  .slider-content span img{
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
 
   
 }

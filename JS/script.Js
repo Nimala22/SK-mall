@@ -19,3 +19,5 @@ document.addEventListener("DOMContentLoaded", () => {
   counter("count3", 0, 4325, 3000);
   counter("count4", 0, 5325, 3000);
 });
+
+
