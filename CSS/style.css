@@ -442,4 +442,47 @@ p span sub{
   height: 17rem;
   width: 100%;
 }
+/* 
+====================================
+           09. blog section
+====================================
+*/
+.carousel-inner .carousel-item img{
+  height: 700px;
+  width: 100%;
+}
 
+/* 
+====================================
+  10. up-coming product section
+====================================
+*/
+.up-coming-products{
+  background: url("../images/background/upcoming-bg.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.up-coming-products .card {
+  background: var(--text-gray);
+  border: 3px solid var(--primary-color);
+  margin: 0 auto;
+  transition: all .5s;
+}
+
+.up-coming-products .card:hover{
+  background: var(--white-color);
+  box-shadow: 25px 25px 130px var(--white-color); 
+}
+
+.up-coming-products .card img{
+  height: 17rem;
+  width: 100%;
+}
+
+.up-coming-products .card:hover h5{
+  font-size: 25px;
+  font-weight: 550;
+  letter-spacing: 3px;
+  color: var(--secondary-color);
+}

@@ -21,6 +21,7 @@
     margin: 0 auto;
   }
 
+  
 
 
 
@@ -81,7 +82,11 @@
     margin: 0 auto;
   }
 
-
+  /* up-coming-products */
+  .up-coming-products .card {
+    width: 90%;
+    margin: 0 auto;
+  }
 
 
 
@@ -141,6 +146,12 @@
     margin: 0 auto;
   }
 
+  /* up-coming-products */
+  .up-coming-products .card {
+    width: 90%;
+    margin: 0 auto;
+  }
+
 
 
 
@@ -195,6 +206,12 @@
 
   /* .top-sell-products  */
   .top-sell-products .card{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /* up-coming-products */
+  .up-coming-products .card {
     width: 90%;
     margin: 0 auto;
   }
