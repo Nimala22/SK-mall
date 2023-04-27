@@ -486,3 +486,27 @@ p span sub{
   letter-spacing: 3px;
   color: var(--secondary-color);
 }
+/* 
+====================================
+      11. paralex section
+====================================
+*/
+.paralex{
+  background: url("../images/background/upcoming-bg.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 200px 0;
+}
+
+.paralex h1{
+  text-align: center !important;
+  display: block;
+  padding: 1.5rem;
+  color: var(--gold-color);
+  transition: .5s;
+}
+
+.paralex h1:hover{  
+  background: #060606ab;
+  text-shadow: 10px 12px 10px var(--black-color);
+}
