@@ -88,6 +88,12 @@
     margin: 0 auto;
   }
 
+  /* Blog-section */
+  .carousel-inner .carousel-item img{
+    height: 50%;
+    width: 100%;
+  }
+
 
 
 
@@ -152,6 +158,21 @@
     margin: 0 auto;
   }
 
+  
+  /* Blog-section */
+  .carousel-inner .carousel-item img{
+    height: 50%;
+    width: 100%;
+  }
+
+  /* Review section */
+  .review-section .slide-content{
+    margin: 0 10px;
+  }
+  .review-section .swiper-navBtn{
+    display: none;
+  }
+
 
 
 
@@ -214,6 +235,13 @@
   .up-coming-products .card {
     width: 90%;
     margin: 0 auto;
+  }
+
+  
+  /* Blog-section */
+  .carousel-inner .carousel-item img{
+    height: 50%;
+    width: 100%;
   }
 
 
