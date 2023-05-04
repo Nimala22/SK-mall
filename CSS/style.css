@@ -563,3 +563,27 @@ p span sub{
 .review-btn i:hover {
   color: var(--secondary-color);
 }
+
+/* 
+====================================
+      12. Review section
+====================================
+*/
+.find-us ul li{  
+  display: inline-block;
+  margin: 1rem 2rem;    
+}
+
+.find-us ul li a i{
+  font-size: 60px;
+  color: var(--white-color);  
+  display: inline-block;
+  text-shadow: 5px 7px 10px var(--text-color);
+  transition: all .5s ease-in-out;
+}
+
+.find-us ul li a:hover i{
+  transform: rotate(720deg);
+  color: var(--secondary-color);
+  text-shadow: 15px 15px 5px var(--black-color);
+}
